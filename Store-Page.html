@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store</title>
+</head>
+
+<body>
+    <div style="text-align: center; background-color:darkseagreen; height: 50px; margin-bottom: 20px;">
+        <h1>My Online Store</h1>
+    </div>
+
+    <table border="2" style="width:90%; text-align: center; margin: 0 auto;">
+        <tr>
+            <th>Item</th>
+            <th>Image</th>
+            <th>Price</th>
+            <th>Link</th>
+        </tr>
+
+        <tr>
+            <td>Iphone</td>
+            <td>
+                <img src="iphone.webp" alt="iphone 14 Pro" style="max-height: 200px;">
+            </td>
+            <td>7,699SAR</td>
+            <td>
+                <a href="https://www.apple.com/store" target="_blank">Apple.com</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Samsung</td>
+            <td>
+                <img src="samsung.jpg" alt="SAMSUNG Galaxy " style="max-height: 200px;">
+            </td>
+            <td>585SAR</td>
+            <td>
+                <a href="https://www.samsung.com/" target="_blank">Samsung.com</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>Ipad</td>
+            <td>
+                <img src="ipad.jpg" alt="iPad 2022 Pro" style="max-height: 200px;">
+            </td>
+            <td>4,819SAR</td>
+            <td>
+                <a href="https://www.apple.com/store/" target="_blank">Apple.com</a>
+            </td>
+        </tr>
+    </table>
+
+    <div style="background-color: darkseagreen; padding: 10px; margin-top: 40px;">
+        <h2>Request Your Device Now!</h2>
+
+        <form method="POST" action="https://www.apple.com/store" class="bacclor">
+
+            <label for="name_user">Name</label>
+            <input type="text" name="name_user" id="name_user" required />
+
+            <br><br>
+
+            <label for="email_user">Email</label>
+            <input type="email" name="email_user" id="email_user" required />
+
+            <br><br>
+
+            <label for="birth_user">Date Of Birth</label>
+            <input type="date" name="birth_user" id="birth_user" required />
+
+            <br><br>
+
+            <input type="submit" />
+        </form>
+    </div>
+</body>
+
+</html>
